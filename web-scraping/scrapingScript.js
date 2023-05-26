@@ -17,17 +17,9 @@ const fs = require("fs");
       await page.$eval('a.plp-btn[aria-label="Show more"]', (button) =>
         button.click(),
       );
-      await page.waitForNavigation();
-      // await delay(1000); // Add a delay using the delay function
-
-      // Get the button element again
+      await page.waitForSelector(".pip-compact-price-package");
       showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
-
       count += 1;
-    }
-
-    function delay(ms) {
-      return new Promise((resolve) => setTimeout(resolve, ms));
     }
 
     console.log('The "Show more" button has disappeared.');

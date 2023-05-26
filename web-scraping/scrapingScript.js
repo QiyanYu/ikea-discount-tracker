@@ -18,7 +18,7 @@ const fs = require("fs");
         button.click(),
       );
       await page.waitForNavigation();
-      await delay(1000); // Add a delay using the delay function
+      // await delay(1000); // Add a delay using the delay function
 
       // Get the button element again
       showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
@@ -29,37 +29,6 @@ const fs = require("fs");
     function delay(ms) {
       return new Promise((resolve) => setTimeout(resolve, ms));
     }
-
-    // // Step 2: Click the "Show more" button until all items are loaded
-    // let count = 1;
-    // while (true) {
-    //   console.log("count: %d", count);
-    //   const showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
-    //   if (!showMoreButton) {
-    //     break; // Exit the loop if the button is not found
-    //   }
-    //   await showMoreButton.click();
-    //   await page.waitForNavigation({ timeout: 120000 });
-    //   await delay(1000); // Add a delay using the delay function
-    //   count += 1;
-    // }
-
-    // // Step 2: Click the "Show more" button until all items are loaded
-    // const showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
-    // let count = 1;
-    // while (showMoreButton) {
-    //   console.log("count: %d", count);
-    //   await page.$eval('a.plp-btn[aria-label="Show more"]', (button) =>
-    //     button.click(),
-    //   );
-    //   await page.waitForNavigation();
-    //   await delay(1000); // Add a delay using the delay function
-    //   count += 1;
-    // }
-
-    // function delay(ms) {
-    //   return new Promise((resolve) => setTimeout(resolve, ms));
-    // }
 
     console.log('The "Show more" button has disappeared.');
 

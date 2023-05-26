@@ -216,10 +216,6 @@
     "price": "199"
   },
   {
-    "name": "LUNGÖN ",
-    "price": "110"
-  },
-  {
     "name": "SKOGSVIKEN ",
     "price": "1"
   },
@@ -284,10 +280,6 @@
     "price": "169"
   },
   {
-    "name": "SJÄLLAND ",
-    "price": "95"
-  },
-  {
     "name": "SOMMARLÅNKE ",
     "price": "4"
   },
@@ -340,6 +332,14 @@
     "price": "299"
   },
   {
+    "name": "LÅGASKÄR ",
+    "price": "89"
+  },
+  {
+    "name": "KUDDARNA ",
+    "price": "15"
+  },
+  {
     "name": "SOMMARLÅNKE ",
     "price": "11"
   },
@@ -356,24 +356,16 @@
     "price": "208"
   },
   {
-    "name": "LÅGASKÄR ",
-    "price": "89"
-  },
-  {
-    "name": "KUDDARNA ",
-    "price": "15"
-  },
-  {
-    "name": "NÄMMARÖ ",
-    "price": "75"
-  },
-  {
     "name": "HIMALAYAMIX ",
     "price": "4"
   },
   {
     "name": "UTLÄNGAN ",
     "price": "49"
+  },
+  {
+    "name": "NÄMMARÖ ",
+    "price": "75"
   },
   {
     "name": "EKERÖ ",
@@ -488,16 +480,16 @@
     "price": "225"
   },
   {
+    "name": "ASKHOLMEN ",
+    "price": "39"
+  },
+  {
     "name": "SÖDERSJÖN ",
     "price": "14"
   },
   {
     "name": "EKET ",
     "price": "26"
-  },
-  {
-    "name": "ASKHOLMEN ",
-    "price": "39"
   },
   {
     "name": "ALMTJÄRN ",
@@ -620,10 +612,6 @@
     "price": "69"
   },
   {
-    "name": "SJÄLLAND ",
-    "price": "549"
-  },
-  {
     "name": "LÅNGDANS ",
     "price": "30"
   },
@@ -636,6 +624,10 @@
     "price": "399"
   },
   {
+    "name": "SKYDRAG ",
+    "price": "27"
+  },
+  {
     "name": "SOMMARLÅNKE ",
     "price": "17"
   },
@@ -646,10 +638,6 @@
   {
     "name": "PRAKTSALVIA ",
     "price": "3"
-  },
-  {
-    "name": "SKYDRAG ",
-    "price": "27"
   },
   {
     "name": "SNIDAD ",
@@ -744,18 +732,6 @@
     "price": "150"
   },
   {
-    "name": "STRELITZIA ",
-    "price": "34"
-  },
-  {
-    "name": "TROFAST ",
-    "price": "19"
-  },
-  {
-    "name": "DYTÅG ",
-    "price": "84"
-  },
-  {
     "name": "HEMNES ",
     "price": "149"
   },
@@ -766,6 +742,18 @@
   {
     "name": "TROTTEN ",
     "price": "69"
+  },
+  {
+    "name": "STRELITZIA ",
+    "price": "34"
+  },
+  {
+    "name": "TROFAST ",
+    "price": "19"
+  },
+  {
+    "name": "DYTÅG ",
+    "price": "84"
   },
   {
     "name": "MUSKOT ",
@@ -792,12 +780,12 @@
     "price": "109"
   },
   {
-    "name": "SEGLARÖ / SVARTÖ ",
-    "price": "419"
-  },
-  {
     "name": "BAGGANÄS ",
     "price": "6"
+  },
+  {
+    "name": "SEGLARÖ / SVARTÖ ",
+    "price": "419"
   },
   {
     "name": "MJÖLKKLOCKA ",
@@ -812,12 +800,12 @@
     "price": "648"
   },
   {
-    "name": "HAVSTA ",
-    "price": "1,097"
-  },
-  {
     "name": "VÄSMAN ",
     "price": "90"
+  },
+  {
+    "name": "HAVSTA ",
+    "price": "1,097"
   },
   {
     "name": "DYTÅG ",
@@ -860,10 +848,6 @@
     "price": "6"
   },
   {
-    "name": "FRÖSÖN ",
-    "price": "20"
-  },
-  {
     "name": "LÄCKÖ ",
     "price": "99"
   },
@@ -880,6 +864,10 @@
     "price": "470"
   },
   {
+    "name": "FRÖSÖN ",
+    "price": "20"
+  },
+  {
     "name": "HAVSTEN ",
     "price": "190"
   },
@@ -892,16 +880,16 @@
     "price": "479"
   },
   {
+    "name": "IKEA 365+ ",
+    "price": "3"
+  },
+  {
     "name": "ENHET ",
     "price": "59"
   },
   {
     "name": "PJÄTTERYD ",
     "price": "99"
-  },
-  {
-    "name": "IKEA 365+ ",
-    "price": "3"
   },
   {
     "name": "BILLSBRO ",
@@ -924,16 +912,16 @@
     "price": "82"
   },
   {
+    "name": "BAGGANÄS ",
+    "price": "8"
+  },
+  {
     "name": "ÄPPLARÖ ",
     "price": "50"
   },
   {
     "name": "HÖGSTEN ",
     "price": "115"
-  },
-  {
-    "name": "BAGGANÄS ",
-    "price": "8"
   },
   {
     "name": "ENHET ",
@@ -950,10 +938,6 @@
   {
     "name": "GRÖNBY ",
     "price": "99"
-  },
-  {
-    "name": "SJÄLLAND ",
-    "price": "359"
   },
   {
     "name": "ÖBONÄS ",
@@ -2276,6 +2260,10 @@
     "price": "289"
   },
   {
+    "name": "LUNGÖN ",
+    "price": "110"
+  },
+  {
     "name": "TRÅDFRI ",
     "price": "14"
   },
@@ -2376,6 +2364,10 @@
     "price": "28"
   },
   {
+    "name": "SJÄLLAND ",
+    "price": "95"
+  },
+  {
     "name": "NÄMMARÖ ",
     "price": "259"
   },
@@ -2408,11 +2400,11 @@
     "price": "21"
   },
   {
-    "name": "FRÖSÖN/DUVHOLMEN ",
+    "name": "DANDERYD ",
     "price": "115"
   },
   {
-    "name": "DANDERYD ",
+    "name": "FRÖSÖN/DUVHOLMEN ",
     "price": "115"
   },
   {
@@ -2504,10 +2496,6 @@
     "price": "215"
   },
   {
-    "name": "VITTSJÖ ",
-    "price": "64"
-  },
-  {
     "name": "MATVRÅ ",
     "price": "9"
   },
@@ -2526,6 +2514,10 @@
   {
     "name": "ENHET ",
     "price": "838"
+  },
+  {
+    "name": "VITTSJÖ ",
+    "price": "64"
   },
   {
     "name": "TISKEN ",
@@ -2552,12 +2544,12 @@
     "price": "1,499"
   },
   {
-    "name": "LILLTJÄRN / SKATSJÖN ",
-    "price": "99"
-  },
-  {
     "name": "SILVERGLANS ",
     "price": "21"
+  },
+  {
+    "name": "LILLTJÄRN / SKATSJÖN ",
+    "price": "99"
   },
   {
     "name": "ENHET ",
@@ -2676,12 +2668,12 @@
     "price": "289"
   },
   {
-    "name": "HAMNÖN ",
-    "price": "50"
-  },
-  {
     "name": "SYMFONISK ",
     "price": "49"
+  },
+  {
+    "name": "HAMNÖN ",
+    "price": "50"
   },
   {
     "name": "IVAR ",
@@ -2772,16 +2764,16 @@
     "price": "119"
   },
   {
-    "name": "SOLHETTA ",
-    "price": "3"
-  },
-  {
     "name": "SKATTÅN ",
     "price": "2"
   },
   {
     "name": "ENHET ",
     "price": "9"
+  },
+  {
+    "name": "SOLHETTA ",
+    "price": "3"
   },
   {
     "name": "SEGERÖN ",
@@ -2806,6 +2798,10 @@
   {
     "name": "TROTTEN ",
     "price": "130"
+  },
+  {
+    "name": "SJÄLLAND ",
+    "price": "549"
   },
   {
     "name": "ENHET ",
@@ -2860,6 +2856,10 @@
     "price": "91"
   },
   {
+    "name": "VINDRIKTNING ",
+    "price": "15"
+  },
+  {
     "name": "ENHET ",
     "price": "396"
   },
@@ -2870,10 +2870,6 @@
   {
     "name": "TORPARÖ ",
     "price": "519"
-  },
-  {
-    "name": "VINDRIKTNING ",
-    "price": "15"
   },
   {
     "name": "NÄMMARÖ ",
@@ -2916,6 +2912,10 @@
     "price": "1,300"
   },
   {
+    "name": "SYMFONISK ",
+    "price": "59"
+  },
+  {
     "name": "TRÅDFRI ",
     "price": "12"
   },
@@ -2932,20 +2932,20 @@
     "price": "1"
   },
   {
-    "name": "SYMFONISK ",
-    "price": "59"
-  },
-  {
-    "name": "BACKSÄLEN ",
-    "price": "79"
-  },
-  {
     "name": "FICUS ",
     "price": "42"
   },
   {
     "name": "ENHET ",
     "price": "1,024"
+  },
+  {
+    "name": "BACKSÄLEN ",
+    "price": "79"
+  },
+  {
+    "name": "TORPARÖ ",
+    "price": "75"
   },
   {
     "name": "SOLHETTA ",
@@ -2958,18 +2958,6 @@
   {
     "name": "NEDDRAGEN ",
     "price": "569"
-  },
-  {
-    "name": "TORPARÖ ",
-    "price": "75"
-  },
-  {
-    "name": "ENHET ",
-    "price": "25"
-  },
-  {
-    "name": "LÅNESPELARE ",
-    "price": "9"
   },
   {
     "name": "TVÄRSÄKER ",
@@ -2986,6 +2974,14 @@
   {
     "name": "ENHET ",
     "price": "244"
+  },
+  {
+    "name": "ENHET ",
+    "price": "25"
+  },
+  {
+    "name": "LÅNESPELARE ",
+    "price": "9"
   },
   {
     "name": "MAMMUT ",
@@ -3050,6 +3046,10 @@
   {
     "name": "BERÄKNA ",
     "price": "9"
+  },
+  {
+    "name": "SJÄLLAND ",
+    "price": "359"
   },
   {
     "name": "HUSKNUT ",
@@ -4392,6 +4392,10 @@
     "price": "299"
   },
   {
+    "name": "HAVSTA ",
+    "price": "299"
+  },
+  {
     "name": "SUNDSÖ ",
     "price": "169"
   },
@@ -4422,10 +4426,6 @@
   {
     "name": "IKEA 365+ ",
     "price": "7"
-  },
-  {
-    "name": "HAVSTA ",
-    "price": "299"
   },
   {
     "name": "BACKSÄLEN ",
@@ -4880,36 +4880,20 @@
     "price": "24"
   },
   {
-    "name": "SJÄLLAND ",
-    "price": "669"
-  },
-  {
-    "name": "SJÄLLAND ",
-    "price": "609"
-  },
-  {
-    "name": "SJÄLLAND ",
-    "price": "609"
-  },
-  {
-    "name": "SJÄLLAND ",
-    "price": "669"
-  },
-  {
-    "name": "PRAKTSALVIA ",
-    "price": "3"
-  },
-  {
-    "name": "PRAKTSALVIA ",
-    "price": "3"
-  },
-  {
     "name": "SKYDRAG ",
     "price": "17"
   },
   {
     "name": "SKYDRAG ",
     "price": "21"
+  },
+  {
+    "name": "PRAKTSALVIA ",
+    "price": "3"
+  },
+  {
+    "name": "PRAKTSALVIA ",
+    "price": "3"
   },
   {
     "name": "TOFTBYN ",
@@ -5084,6 +5068,14 @@
     "price": "7"
   },
   {
+    "name": "ENHET ",
+    "price": "602"
+  },
+  {
+    "name": "ENHET ",
+    "price": "648"
+  },
+  {
     "name": "BAGGANÄS ",
     "price": "7"
   },
@@ -5100,12 +5092,8 @@
     "price": "6"
   },
   {
-    "name": "ENHET ",
-    "price": "602"
-  },
-  {
-    "name": "ENHET ",
-    "price": "648"
+    "name": "VÄSMAN ",
+    "price": "90"
   },
   {
     "name": "ENHET ",
@@ -5122,10 +5110,6 @@
   {
     "name": "HAVSTA ",
     "price": "1,097"
-  },
-  {
-    "name": "VÄSMAN ",
-    "price": "90"
   },
   {
     "name": "DYTÅG ",
@@ -5164,6 +5148,18 @@
     "price": "599"
   },
   {
+    "name": "ENHET ",
+    "price": "96"
+  },
+  {
+    "name": "ENHET ",
+    "price": "112"
+  },
+  {
+    "name": "ENHET ",
+    "price": "106"
+  },
+  {
     "name": "VÅGSJÖN ",
     "price": "6"
   },
@@ -5178,18 +5174,6 @@
   {
     "name": "FRÖSÖN ",
     "price": "20"
-  },
-  {
-    "name": "ENHET ",
-    "price": "96"
-  },
-  {
-    "name": "ENHET ",
-    "price": "112"
-  },
-  {
-    "name": "ENHET ",
-    "price": "106"
   },
   {
     "name": "ENHET ",
@@ -5216,10 +5200,6 @@
     "price": "479"
   },
   {
-    "name": "ENHET ",
-    "price": "59"
-  },
-  {
     "name": "IKEA 365+ ",
     "price": "9"
   },
@@ -5228,6 +5208,10 @@
     "price": "5"
   },
   {
+    "name": "ENHET ",
+    "price": "59"
+  },
+  {
     "name": "BILLSBRO ",
     "price": "12"
   },
@@ -5272,14 +5256,6 @@
     "price": "19"
   },
   {
-    "name": "TÄRNÖ ",
-    "price": "219"
-  },
-  {
-    "name": "TÄRNÖ ",
-    "price": "219"
-  },
-  {
     "name": "BAGGANÄS ",
     "price": "8"
   },
@@ -5296,8 +5272,12 @@
     "price": "12"
   },
   {
-    "name": "BAGGANÄS ",
-    "price": "12"
+    "name": "TÄRNÖ ",
+    "price": "219"
+  },
+  {
+    "name": "TÄRNÖ ",
+    "price": "219"
   },
   {
     "name": "ENHET ",
@@ -5320,20 +5300,8 @@
     "price": "94"
   },
   {
-    "name": "SJÄLLAND ",
-    "price": "389"
-  },
-  {
-    "name": "SJÄLLAND ",
-    "price": "419"
-  },
-  {
-    "name": "SJÄLLAND ",
-    "price": "419"
-  },
-  {
-    "name": "SJÄLLAND ",
-    "price": "389"
+    "name": "BAGGANÄS ",
+    "price": "12"
   },
   {
     "name": "BEKANT ",
@@ -6713,11 +6681,11 @@
   },
   {
     "name": "ENHET ",
-    "price": "629"
+    "price": "21"
   },
   {
     "name": "ENHET ",
-    "price": "21"
+    "price": "629"
   },
   {
     "name": "ENHET ",
@@ -6856,16 +6824,16 @@
     "price": "360"
   },
   {
+    "name": "KUDDARNA ",
+    "price": "15"
+  },
+  {
     "name": "ENHET ",
     "price": "187"
   },
   {
     "name": "ENHET ",
     "price": "166"
-  },
-  {
-    "name": "KUDDARNA ",
-    "price": "15"
   },
   {
     "name": "ENHET ",
@@ -6936,10 +6904,6 @@
     "price": "804"
   },
   {
-    "name": "SILVERGLANS ",
-    "price": "21"
-  },
-  {
     "name": "FALHOLMEN ",
     "price": "629"
   },
@@ -6948,12 +6912,8 @@
     "price": "266"
   },
   {
-    "name": "EKET ",
-    "price": "237"
-  },
-  {
-    "name": "EKET ",
-    "price": "237"
+    "name": "SILVERGLANS ",
+    "price": "21"
   },
   {
     "name": "SILVERGLANS ",
@@ -6962,6 +6922,14 @@
   {
     "name": "SILVERGLANS ",
     "price": "19"
+  },
+  {
+    "name": "EKET ",
+    "price": "237"
+  },
+  {
+    "name": "EKET ",
+    "price": "237"
   },
   {
     "name": "EKET ",
@@ -7004,32 +6972,24 @@
     "price": "121"
   },
   {
+    "name": "BONDHOLMEN ",
+    "price": "1,059"
+  },
+  {
+    "name": "BONDHOLMEN ",
+    "price": "1,059"
+  },
+  {
+    "name": "BONDHOLMEN ",
+    "price": "939"
+  },
+  {
+    "name": "BONDHOLMEN ",
+    "price": "1,119"
+  },
+  {
     "name": "SYMFONISK ",
     "price": "49"
-  },
-  {
-    "name": "BONDHOLMEN ",
-    "price": "1,059"
-  },
-  {
-    "name": "BONDHOLMEN ",
-    "price": "1,059"
-  },
-  {
-    "name": "BONDHOLMEN ",
-    "price": "939"
-  },
-  {
-    "name": "BONDHOLMEN ",
-    "price": "1,119"
-  },
-  {
-    "name": "BONDHOLMEN ",
-    "price": "1,119"
-  },
-  {
-    "name": "BONDHOLMEN ",
-    "price": "939"
   },
   {
     "name": "ENHET ",
@@ -7042,6 +7002,14 @@
   {
     "name": "ENHET ",
     "price": "4"
+  },
+  {
+    "name": "BONDHOLMEN ",
+    "price": "1,119"
+  },
+  {
+    "name": "BONDHOLMEN ",
+    "price": "939"
   },
   {
     "name": "EKET ",
@@ -7097,15 +7065,23 @@
   },
   {
     "name": "ENHET ",
-    "price": "9"
-  },
-  {
-    "name": "ENHET ",
     "price": "487"
   },
   {
     "name": "ENHET ",
     "price": "468"
+  },
+  {
+    "name": "ENHET ",
+    "price": "9"
+  },
+  {
+    "name": "ENHET ",
+    "price": "30"
+  },
+  {
+    "name": "TROTTEN ",
+    "price": "130"
   },
   {
     "name": "ENHET ",
@@ -7116,12 +7092,20 @@
     "price": "531"
   },
   {
-    "name": "ENHET ",
-    "price": "30"
+    "name": "SJÄLLAND ",
+    "price": "669"
   },
   {
-    "name": "TROTTEN ",
-    "price": "130"
+    "name": "SJÄLLAND ",
+    "price": "609"
+  },
+  {
+    "name": "SJÄLLAND ",
+    "price": "609"
+  },
+  {
+    "name": "SJÄLLAND ",
+    "price": "669"
   },
   {
     "name": "ENHET ",
@@ -7220,16 +7204,24 @@
     "price": "1,300"
   },
   {
-    "name": "SOLLERÖN ",
-    "price": "1,390"
-  },
-  {
-    "name": "SOLLERÖN ",
-    "price": "1,390"
-  },
-  {
     "name": "SYMFONISK ",
     "price": "59"
+  },
+  {
+    "name": "SOLLERÖN ",
+    "price": "1,390"
+  },
+  {
+    "name": "SOLLERÖN ",
+    "price": "1,390"
+  },
+  {
+    "name": "BACKSÄLEN ",
+    "price": "129"
+  },
+  {
+    "name": "BACKSÄLEN ",
+    "price": "129"
   },
   {
     "name": "ENHET ",
@@ -7238,14 +7230,6 @@
   {
     "name": "ENHET ",
     "price": "935"
-  },
-  {
-    "name": "BACKSÄLEN ",
-    "price": "129"
-  },
-  {
-    "name": "BACKSÄLEN ",
-    "price": "129"
   },
   {
     "name": "SOLLERÖN ",
@@ -7326,6 +7310,22 @@
   {
     "name": "YTBERG / TRÅDFRI ",
     "price": "85"
+  },
+  {
+    "name": "SJÄLLAND ",
+    "price": "389"
+  },
+  {
+    "name": "SJÄLLAND ",
+    "price": "419"
+  },
+  {
+    "name": "SJÄLLAND ",
+    "price": "419"
+  },
+  {
+    "name": "SJÄLLAND ",
+    "price": "389"
   },
   {
     "name": "BONDHOLMEN ",

@@ -1,1 +1,1 @@
-# ikeaDiscountWebsite
+# ikea-discount-tracker

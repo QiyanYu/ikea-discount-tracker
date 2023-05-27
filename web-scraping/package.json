@@ -1,4 +1,26 @@
 {
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "a web scrapper for ikea us website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QiyanYu/ikea-discount-tracker.git#main"
+  },
+  "keywords": [
+    "web scraper",
+    "ikea"
+  ],
+  "author": "Ryan Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QiyanYu/ikea-discount-tracker/issues"
+  },
+  "homepage": "https://github.com/QiyanYu/ikea-discount-tracker/tree/main#readme",
   "dependencies": {
     "puppeteer": "^20.4.0"
   }

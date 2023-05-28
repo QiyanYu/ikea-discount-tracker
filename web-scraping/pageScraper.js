@@ -6,7 +6,22 @@ const scraperObject = {
     await page.goto(this.url);
 
     // // Wait for the required DOM to be rendered
-    await page.waitForSelector(".plp-various-content-slot-wrapper");
+    // await page.waitForSelector(".plp-various-content-slot-wrapper");
+
+    // Click the "Show more" button until all items are loaded
+    // let showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
+    // let count = 1;
+    // while (showMoreButton) {
+    //   console.log("count: %d", count);
+    //   await page.$eval('a.plp-btn[aria-label="Show more"]', (button) =>
+    //     button.click(),
+    //   );
+    //   await page.waitForSelector(".pip-compact-price-package");
+    //   showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
+    //   count += 1;
+    // }
+
+    // console.log('The "Show more" button has disappeared.');
 
     // Get the link to all the required books
     let urls = await page.$$eval(
@@ -31,6 +46,13 @@ const scraperObject = {
         dataObj["id"] = await newPage.$eval(
           "div.pip-product__subgrid.product-pip.js-product-pip",
           (div) => div.getAttribute("data-product-id"),
+        );
+
+        // category
+
+        dataObj["category"] = await newPage.$eval(
+          "#content > div > div.pip-page-container__inner > div > div:nth-child(1) > div > nav > ol > li:nth-child(2) > a > span",
+          (text) => text.textContent,
         );
 
         // name

@@ -1,6 +1,7 @@
 const scraperObject = {
   url: "https://www.ikea.com/us/en/offers/limited-time-offers/",
   async scraper(browser) {
+    let data = [];
     let page = await browser.newPage();
     console.log(`Navigating to ${this.url}...`);
     await page.goto(this.url);
@@ -9,19 +10,19 @@ const scraperObject = {
     // await page.waitForSelector(".plp-various-content-slot-wrapper");
 
     // Click the "Show more" button until all items are loaded
-    // let showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
-    // let count = 1;
-    // while (showMoreButton) {
-    //   console.log("count: %d", count);
-    //   await page.$eval('a.plp-btn[aria-label="Show more"]', (button) =>
-    //     button.click(),
-    //   );
-    //   await page.waitForSelector(".pip-compact-price-package");
-    //   showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
-    //   count += 1;
-    // }
+    let showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
+    let count = 1;
+    while (showMoreButton) {
+      console.log("count: %d", count);
+      await page.$eval('a.plp-btn[aria-label="Show more"]', (button) =>
+        button.click(),
+      );
+      await page.waitForSelector(".pip-compact-price-package");
+      showMoreButton = await page.$('a.plp-btn[aria-label="Show more"]');
+      count += 1;
+    }
 
-    // console.log('The "Show more" button has disappeared.');
+    console.log('The "Show more" button has disappeared.');
 
     // Get the link to all the required books
     let urls = await page.$$eval(
@@ -119,12 +120,11 @@ const scraperObject = {
     for (link in urls) {
       let newPage = await browser.newPage();
       let currentPageData = await pagePromise(urls[link], newPage);
-      // scrapedData.push(currentPageData);
+      data.push(currentPageData);
       console.log(currentPageData);
       await newPage.close();
     }
-
-    browser.close();
+    return data;
   },
 };
 

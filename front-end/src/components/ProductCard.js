@@ -12,7 +12,6 @@ export default function ProductCard({ data }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea component="a" href={data.link} target="_blank">
-        <CardHeader title={data.discountPercent} />
         <CardMedia
           sx={{ height: 140 }}
           image={data.image}
@@ -20,14 +19,23 @@ export default function ProductCard({ data }) {
           component="img"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5">
+          <Typography variant="subtitle2" gutterBottom>
             {data.name}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" mb={1}>
             {data.details}
           </Typography>
-          <Typography>{data.originalPrice}</Typography>
-          <Typography>{data.currentPrice}</Typography>
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            sx={{ textDecoration: "line-through" }}
+            mb={1}
+          >
+            {data.originalPrice}
+          </Typography>
+          <Typography variant="body1" fontWeight="bold" color="error">
+            {data.currentPrice}
+          </Typography>
         </CardContent>
       </CardActionArea>
     </Card>

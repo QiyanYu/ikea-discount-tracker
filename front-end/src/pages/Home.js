@@ -1,14 +1,6 @@
 import { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
-import {
-  Button,
-  CircularProgress,
-  Container,
-  ThemeProvider,
-  Typography,
-  createTheme,
-} from "@mui/material";
+import { Button, CircularProgress, Container } from "@mui/material";
 import ProductCard from "../components/ProductCard";
 
 function Home() {
@@ -35,30 +27,35 @@ function Home() {
   if (loading) return <CircularProgress />;
   if (error) return <h1>{error}</h1>;
 
-  const theme = createTheme({});
-
   function showMore() {
     setShowingItems((prevItems) => [
       ...prevItems,
-      ...data.slice(prevItems.length, prevItems.length + 24),
+      ...data.slice(prevItems.length, prevItems.length + pageSize),
     ]);
   }
 
   return (
-    <ThemeProvider theme={theme}>
-      <Container>
-        <Grid container spacing={3}>
-          {showingItems.map((d) => (
-            <Grid item xs={12} md={6} lg={4}>
-              <ProductCard data={d} />
-            </Grid>
-          ))}
-        </Grid>
-        {showingItems.length < data.length && (
-          <Button onClick={showMore}>Show More</Button>
-        )}
-      </Container>
-    </ThemeProvider>
+    <Container>
+      <Grid container spacing={3}>
+        {showingItems.map((d) => (
+          <Grid item xs={12} md={6} lg={4}>
+            <ProductCard data={d} />
+          </Grid>
+        ))}
+      </Grid>
+
+      {showingItems.length < data.length && (
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <Button
+            style={{ marginTop: "2rem" }}
+            variant="outlined"
+            onClick={showMore}
+          >
+            Show More
+          </Button>
+        </div>
+      )}
+    </Container>
   );
 }
 

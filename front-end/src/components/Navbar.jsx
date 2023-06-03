@@ -6,8 +6,8 @@ import {
   HStack,
   Heading,
   Spacer,
-  Text,
 } from "@chakra-ui/react";
+import SearchInput from "./SearchInput";
 
 export default function Navbar() {
   return (
@@ -28,15 +28,18 @@ export default function Navbar() {
         IKEA Deals
       </Heading>
       <Spacer />
-      <HStack spacing="20px" p="5px">
-        {/* <Box bg="gray.200" p="10px">
+
+      {/* <Box bg="gray.200" p="10px">
           M
         </Box> */}
-        {/* <Text>mario@nenninja.dev</Text> */}
-        <Box bg="white" p="10px" borderRadius="full">
+      {/* <Text>mario@nenninja.dev</Text> */}
+      <Box bg="white" p="10px" borderRadius="full">
+        <HStack spacing="20px" p="5px">
+          {/* <SearchInput /> */}
+
           <Avatar size="sm" />
-        </Box>
-      </HStack>
+        </HStack>
+      </Box>
     </Flex>
   );
 }

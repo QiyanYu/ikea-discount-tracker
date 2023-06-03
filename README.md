@@ -2,6 +2,7 @@
 
 ## TODO List
 
+- [ ] search
 - [ ] dark mode
 - [ ] user login
 - [ ] discount rating

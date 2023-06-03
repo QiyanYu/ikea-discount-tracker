@@ -1,6 +1,8 @@
 import {
   Box,
+  Button,
   CardBody,
+  Center,
   CircularProgress,
   Container,
   Heading,
@@ -43,12 +45,23 @@ export default function Home() {
 
   return (
     <Box>
-      <SimpleGrid p={10} columns={3} spacing={5} minChildWidth={250}>
+      <SimpleGrid
+        px="40px"
+        py="5px"
+        columns={3}
+        spacing={5}
+        minChildWidth={250}
+      >
         {showingItems.map((d) => (
           <ProductCard data={d}></ProductCard>
         ))}
         {/* <ProductCard data={showingItems[0]} /> */}
       </SimpleGrid>
+      {showingItems.length < data.length && (
+        <Center my="20px">
+          <Button onClick={showMore}>Show More</Button>
+        </Center>
+      )}
     </Box>
   );
 }

@@ -12,15 +12,5 @@ export default function RootLayout() {
         <Outlet />
       </Flex>
     </Flex>
-    // <Grid templateColumns="repeat(5, 1fr)" bg="gray.50">
-    //   <GridItem as="aside" colSpan={1} height="100vh" p={30} bg="gray.300">
-    //     <Sidebar />
-    //   </GridItem>
-
-    //   <GridItem as="main" colSpan={4}>
-    //     <Navbar />
-    //     <Outlet />
-    //   </GridItem>
-    // </Grid>
   );
 }

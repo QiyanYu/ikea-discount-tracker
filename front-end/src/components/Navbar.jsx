@@ -15,7 +15,7 @@ export default function Navbar() {
       as="nav"
       minWidth="max-content"
       p="10px"
-      m="20px"
+      m="10px"
       alignItems="center"
       bg="rgba(0, 0, 0, 0)"
       backdropFilter="blur(10px)"

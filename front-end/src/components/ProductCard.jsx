@@ -4,9 +4,9 @@ import {
   Card,
   CardBody,
   CardFooter,
+  HStack,
   Heading,
   Image,
-  Link,
   Stack,
   Text,
 } from "@chakra-ui/react";
@@ -21,41 +21,45 @@ export default function ProductCard({ data }) {
   };
 
   return (
-    <Card width="250px" height="350px" p="5px" position="relative">
-      <CardBody p="10px">
-        <Link as="a" href={data.link} target="_blank" isExternal>
-          <Image
-            src={data.image}
-            alt={data.name + data.details}
-            objectFit="cover"
-          />
-        </Link>
+    <Card height="400px" width="300px">
+      <CardBody h="260px" p="10px">
+        <Image
+          src={data.image}
+          alt={data.name + data.details}
+          objectFit="contain"
+          w="100%"
+          h="100%"
+        />
+      </CardBody>
+      <CardBody h="90px" px="20px" py="10px">
         <Stack>
           <Heading size="sm">{data.name}</Heading>
-          <Text fontSize="xs" noOfLines={2}>
+          <Text size="sm" noOfLines={2}>
             {data.details}
           </Text>
         </Stack>
       </CardBody>
-      <CardFooter p="5px">
-        <Text textDecor="line-through" fontSize="md">
-          {data.originalPrice}
-        </Text>
-        <Text fontWeight="bold" color="red.400" fontSize="lg" px="8px">
-          {data.currentPrice}
-        </Text>
-        <Badge p={1} fontSize={12}>
-          {data.discountPercent + "OFF"}
-        </Badge>
-        <Box as="button">
-          <FaHeart
-            size={20}
-            color={isLiked ? "#EF5350" : "gray"}
-            style={{ position: "absolute", top: "15px", right: "15px" }}
-            onClick={handleLikeClick}
-          />
-        </Box>
+      <CardFooter h="50px" px="20px" py="10px">
+        <HStack>
+          <Text textDecor="line-through" fontSize="md" my="0">
+            {data.originalPrice}
+          </Text>
+          <Text fontWeight="bold" color="red.400" fontSize="lg" my="0">
+            {data.currentPrice}
+          </Text>
+          <Badge fontSize={12} position="absolute" right="20px" bottom="17px">
+            {data.discountPercent + "OFF"}
+          </Badge>
+        </HStack>
       </CardFooter>
+      <Box as="button">
+        <FaHeart
+          size={20}
+          color={isLiked ? "#EF5350" : "#E2E8F0"}
+          style={{ position: "absolute", top: "20px", right: "20px" }}
+          onClick={handleLikeClick}
+        />
+      </Box>
     </Card>
   );
 }

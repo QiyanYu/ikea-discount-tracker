@@ -1,6 +1,6 @@
 import { Box, Button, Text } from "@chakra-ui/react";
 
-export default function Create() {
+export default function Saved() {
   return (
     <Box
       w="100%"

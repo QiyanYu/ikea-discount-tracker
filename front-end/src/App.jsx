@@ -7,7 +7,7 @@ import {
 
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
-import Create from "./pages/Create";
+import Saved from "./pages/Saved";
 import Profile from "./pages/Profile";
 
 // router and routes
@@ -15,7 +15,8 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
-      {/* <Route path="create" element={<Create />} /> */}
+      <Route path="saved" element={<Saved />} />
+      <Route path="profile" element={<Profile />} />
     </Route>,
   ),
 );

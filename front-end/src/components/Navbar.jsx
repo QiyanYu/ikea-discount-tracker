@@ -24,7 +24,7 @@ export default function Navbar() {
       zIndex={1}
       borderRadius="30px"
     >
-      <Heading as="h1" pl={5}>
+      <Heading as="h1" pl={5} fontSize="2xl">
         IKEA Deals
       </Heading>
       <Spacer />

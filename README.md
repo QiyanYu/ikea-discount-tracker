@@ -7,5 +7,4 @@
 - [ ] user login
 - [ ] discount rating
 - [ ] user saved
-- [ ] price history
 - [ ] save product notification when on sale

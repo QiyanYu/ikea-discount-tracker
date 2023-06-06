@@ -1,4 +1,5 @@
 import {
+  Box,
   Divider,
   Flex,
   HStack,
@@ -23,54 +24,74 @@ export default function Sidebar() {
     <Flex flexDir="column" align="flex-start" width="250px" height="100%">
       <Heading p={5}>IKEA Deals</Heading>
       <Divider />
-      <List pl="40px" py="10px">
-        <ListItem m="10px">
-          <NavLink to="/">
-            <HStack>
-              <Icon as={FaHome} />
-              <Text>Home</Text>
-            </HStack>
-          </NavLink>
-        </ListItem>
-        <ListItem m="10px">
-          <NavLink to="saved">
-            <HStack>
-              <Icon as={FaHeart} />
-              <Text>Saved</Text>
-            </HStack>
-          </NavLink>
-        </ListItem>
-        <ListItem m="10px">
-          <NavLink to="profile">
-            <HStack>
-              <Icon as={FaUserCircle} />
-              <Text>Profile</Text>
-            </HStack>
-          </NavLink>
-        </ListItem>
-      </List>
+      <Box p="20px">
+        <Link
+          as={NavLink}
+          to="/"
+          color="gray"
+          _activeLink={{
+            fontWeight: "bold",
+            color: "black",
+            textDecor: "none",
+          }}
+          _hover={{ textDecoration: "none" }}
+        >
+          <HStack ml="20px" fontSize="xl">
+            <Icon as={FaHome} />
+            <Text ml="5px">Home</Text>
+          </HStack>
+        </Link>
+        <Link
+          as={NavLink}
+          to="saved"
+          color="gray"
+          _activeLink={{
+            fontWeight: "bold",
+            color: "black",
+            textDecor: "none",
+          }}
+          _hover={{ textDecoration: "none" }}
+        >
+          <HStack ml="20px" mt="10px" fontSize="xl">
+            <Icon as={FaHeart} />
+            <Text ml="5px">Saved</Text>
+          </HStack>
+        </Link>
+        <Link
+          as={NavLink}
+          to="profile"
+          color="gray"
+          _activeLink={{
+            fontWeight: "bold",
+            color: "black",
+            textDecor: "none",
+          }}
+          _hover={{ textDecoration: "none" }}
+        >
+          <HStack ml="20px" mt="10px" fontSize="xl">
+            <Icon as={FaUserCircle} />
+            <Text ml="5px">Profile</Text>
+          </HStack>
+        </Link>
+      </Box>
       <Spacer />
-      <List p="40px" mb="20px">
-        <ListItem m="10px">
-          <Link
-            href="https://github.com/QiyanYu/ikea-discount-tracker"
-            isExternal
-          >
-            <HStack>
-              <Icon as={FaGithub} />
-              <Text>GitHub</Text>
-            </HStack>
-          </Link>
-        </ListItem>
-        <ListItem m="10px">
-          <Link href="https://twitter.com/Yu08516687" isExternal>
-            <HStack>
-              <Icon as={FaTwitter} />
-              <Text>Twitter</Text>
-            </HStack>
-          </Link>
-        </ListItem>
-      </List>
+      <Box p="20px">
+        <Link
+          href="https://github.com/QiyanYu/ikea-discount-tracker"
+          isExternal
+        >
+          <HStack ml="20px" mb="10px" fontSize="lg">
+            <Icon as={FaGithub} />
+            <Text>GitHub</Text>
+          </HStack>
+        </Link>
+        <Link href="https://twitter.com/Yu08516687" isExternal>
+          <HStack ml="20px" mb="60px" fontSize="lg">
+            <Icon as={FaTwitter} />
+            <Text>Twitter</Text>
+          </HStack>
+        </Link>
+      </Box>
     </Flex>
   );
 }

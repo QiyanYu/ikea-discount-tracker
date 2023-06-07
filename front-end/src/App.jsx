@@ -9,6 +9,7 @@ import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import Saved from "./pages/Saved";
 import Profile from "./pages/Profile";
+import NotFound from "./pages/NotFound";
 
 // router and routes
 const router = createBrowserRouter(
@@ -17,6 +18,8 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="saved" element={<Saved />} />
       <Route path="profile" element={<Profile />} />
+
+      <Route path="*" element={<NotFound />} />
     </Route>,
   ),
 );

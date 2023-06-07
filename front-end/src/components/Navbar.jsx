@@ -1,12 +1,4 @@
-import {
-  Avatar,
-  Box,
-  Button,
-  Flex,
-  HStack,
-  Heading,
-  Spacer,
-} from "@chakra-ui/react";
+import { Avatar, Box, Flex, HStack, Heading, Spacer } from "@chakra-ui/react";
 import SearchInput from "./SearchInput";
 
 export default function Navbar() {

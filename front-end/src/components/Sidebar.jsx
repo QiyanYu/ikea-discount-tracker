@@ -4,8 +4,6 @@ import {
   Flex,
   HStack,
   Heading,
-  List,
-  ListItem,
   Spacer,
   Text,
 } from "@chakra-ui/react";

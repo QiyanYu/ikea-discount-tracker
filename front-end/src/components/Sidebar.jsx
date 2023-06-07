@@ -36,7 +36,7 @@ export default function Sidebar() {
           }}
           _hover={{ textDecoration: "none" }}
         >
-          <HStack ml="20px" fontSize="xl">
+          <HStack ml="20px" fontSize="lg">
             <Icon as={FaHome} />
             <Text ml="5px">Home</Text>
           </HStack>
@@ -52,7 +52,7 @@ export default function Sidebar() {
           }}
           _hover={{ textDecoration: "none" }}
         >
-          <HStack ml="20px" mt="10px" fontSize="xl">
+          <HStack ml="20px" mt="10px" fontSize="lg">
             <Icon as={FaHeart} />
             <Text ml="5px">Saved</Text>
           </HStack>
@@ -68,7 +68,7 @@ export default function Sidebar() {
           }}
           _hover={{ textDecoration: "none" }}
         >
-          <HStack ml="20px" mt="10px" fontSize="xl">
+          <HStack ml="20px" mt="10px" fontSize="lg">
             <Icon as={FaUserCircle} />
             <Text ml="5px">Profile</Text>
           </HStack>

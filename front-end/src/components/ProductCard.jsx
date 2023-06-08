@@ -22,9 +22,9 @@ export default function ProductCard({ data }) {
   };
 
   return (
-    <Card height="400px" width="300px">
+    <Card height="300px" width="250px">
       <Link href={data.link} isExternal>
-        <CardBody h="260px" p="10px">
+        <CardBody h="180px" p="5px">
           <Image
             src={data.image}
             alt={data.name + data.details}
@@ -34,23 +34,23 @@ export default function ProductCard({ data }) {
           />
         </CardBody>
       </Link>
-      <CardBody h="90px" px="20px" py="10px">
+      <CardBody h="50px" p="5px" mx="10px">
         <Stack>
-          <Heading size="sm">{data.name}</Heading>
-          <Text size="sm" noOfLines={2}>
+          <Heading size="xs">{data.name}</Heading>
+          <Text fontSize="sm" noOfLines={2}>
             {data.details}
           </Text>
         </Stack>
       </CardBody>
-      <CardFooter h="50px" px="20px" py="10px">
+      <CardFooter h="40px" p="5px" mx="10px">
         <HStack>
-          <Text textDecor="line-through" fontSize="md" my="0">
+          <Text textDecor="line-through" my="0" fontSize="sm">
             {data.originalPrice}
           </Text>
-          <Text fontWeight="bold" color="red.400" fontSize="lg" my="0">
+          <Text fontWeight="bold" color="red.400" my="0">
             {data.currentPrice}
           </Text>
-          <Badge fontSize={12} position="absolute" right="20px" bottom="17px">
+          <Badge fontSize={12} position="absolute" right="20px" bottom="12px">
             {data.discountPercent + "OFF"}
           </Badge>
         </HStack>

@@ -33,7 +33,6 @@ export default function Home() {
       });
   }, []);
 
-  if (loading) return <CircularProgress />;
   if (error) return <h1>{error}</h1>;
 
   function showMore() {
@@ -46,7 +45,7 @@ export default function Home() {
   return (
     <Box p="40px">
       <CategoryTab data={data} />
-      <SimpleGrid columns={{ md: 1, lg: 2, xl: 3, "2xl": 4 }} gap="40px">
+      <SimpleGrid columns={{ md: 2, lg: 3, xl: 4 }} gap="40px">
         {showingItems.map((d) => (
           <ProductCard data={d} key={d.id}></ProductCard>
         ))}

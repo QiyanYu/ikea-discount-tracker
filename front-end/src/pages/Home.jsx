@@ -4,9 +4,13 @@ import {
   Center,
   CircularProgress,
   SimpleGrid,
+  TabList,
+  TabPanels,
+  Tabs,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
+import CategoryTab from "../components/CategoryTab";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -41,6 +45,7 @@ export default function Home() {
 
   return (
     <Box p="40px">
+      <CategoryTab data={data} />
       <SimpleGrid columns={{ md: 1, lg: 2, xl: 3, "2xl": 4 }} gap="40px">
         {showingItems.map((d) => (
           <ProductCard data={d} key={d.id}></ProductCard>

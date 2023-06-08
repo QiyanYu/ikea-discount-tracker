@@ -7,6 +7,7 @@ import {
   HStack,
   Heading,
   Image,
+  Link,
   Stack,
   Text,
 } from "@chakra-ui/react";
@@ -22,15 +23,17 @@ export default function ProductCard({ data }) {
 
   return (
     <Card height="400px" width="300px">
-      <CardBody h="260px" p="10px">
-        <Image
-          src={data.image}
-          alt={data.name + data.details}
-          objectFit="contain"
-          w="100%"
-          h="100%"
-        />
-      </CardBody>
+      <Link href={data.link} isExternal>
+        <CardBody h="260px" p="10px">
+          <Image
+            src={data.image}
+            alt={data.name + data.details}
+            objectFit="contain"
+            w="100%"
+            h="100%"
+          />
+        </CardBody>
+      </Link>
       <CardBody h="90px" px="20px" py="10px">
         <Stack>
           <Heading size="sm">{data.name}</Heading>

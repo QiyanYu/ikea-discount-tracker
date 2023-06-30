@@ -83,7 +83,7 @@ const scraperObject = {
           (text) => text.innerText,
         );
         const originalPrice = originalInteger + originalDecimal;
-        dataObj["originalPrice"] = "$" + originalPrice;
+        dataObj["originalPrice"] = originalPrice;
 
         // current price
         const currentInteger = await newPage.$eval(
@@ -95,15 +95,15 @@ const scraperObject = {
           (text) => text.textContent,
         );
         const currentPrice = currentInteger + currentDecimal;
-        dataObj["currentPrice"] = "$" + currentPrice;
+        dataObj["currentPrice"] = currentPrice;
 
         // discount %
-        const originalNumber = Number(originalPrice.replace(/,/g, ""));
-        const currentNumber = Number(currentPrice.replace(/,/g, ""));
+        const originalNumber = Number(originalPrice);
+        const currentNumber = Number(currentPrice);
         const discountPercent =
           ((originalNumber - currentNumber) / originalNumber) * 100;
-        const rounded = Math.round(discountPercent * 100) / 100;
-        dataObj["discountPercent"] = rounded + "%";
+        const rounded = Math.round(discountPercent);
+        dataObj["discountPercent"] = rounded;
 
         // image
         dataObj["image"] = await newPage.$eval("img.pip-image", (images) =>

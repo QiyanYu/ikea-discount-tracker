@@ -6,7 +6,7 @@ async function scrapeAll(browserInstance) {
   try {
     browser = await browserInstance;
     const data = await pageScraper.scraper(browser);
-    saveDataToFile(data, "data.json");
+    saveDataToFile({ deals: data }, "data.json");
     browser.close();
   } catch (err) {
     console.log("Could not resolve the browser instance => ", err);

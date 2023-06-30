@@ -1,10 +1,9 @@
-import { Tab, TabList, Tabs } from "@chakra-ui/react";
+import { Box, Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react";
 
-export default function CategoryTab({ data }) {
-  const categories = [...new Set(data.map((item) => item.category))];
-
+export default function CategoryTab({ categories }) {
+  console.log(categories);
   return (
-    <Tabs>
+    <Tabs variant="soft-rounded" colorScheme="gray" size="sm" isFitted>
       <TabList>
         {categories.map((c) => (
           <Tab key={c}>{c}</Tab>

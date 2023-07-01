@@ -63,15 +63,10 @@ const scraperObject = {
         );
 
         // details
-        const description = await newPage.$eval(
-          ".pip-header-section__description-text",
+        dataObj["details"] = await newPage.$eval(
+          "#pip-buy-module-content > div.pip-temp-price-module.pip-temp-price-module--informational.pip-temp-price-module--small.pip-temp-price-module--tro.js-price-package > div.pip-temp-price-module__information > div > span > h1 > div > div.pip-header-section__container-text > span.pip-header-section__description",
           (text) => text.textContent,
         );
-        const measurement = await newPage.$eval(
-          ".pip-list-view-item__addon",
-          (text) => text.textContent,
-        );
-        dataObj["details"] = description + measurement;
 
         // original price
         const originalInteger = await newPage.$eval(

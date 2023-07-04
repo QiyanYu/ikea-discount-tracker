@@ -3,8 +3,6 @@ import { deals } from "../../../data/data.json";
 import DealCard from "./DealCard";
 import { useState } from "react";
 
-// console.log(deals);
-
 export default function Deals() {
   const categories = ["All", ...new Set(deals.map((d) => d.category))];
 
@@ -80,9 +78,9 @@ export default function Deals() {
           ))}
         </div>
       )}
-      <div className="grid grid-cols-1 gap-4 bg-gray-100 p-3">
-        {products.map((product) => (
-          <DealCard key={product.id} deal={product} />
+      <div className=" grid grid-cols-1 gap-4 bg-gray-100 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {products.map((deal) => (
+          <DealCard key={deal.id} deal={deal} />
         ))}
       </div>
       <button className="flex justify-center" onClick={loadMore}>

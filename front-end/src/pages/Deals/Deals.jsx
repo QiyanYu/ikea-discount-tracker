@@ -64,7 +64,7 @@ export default function Deals() {
       </div>
 
       {showDropdown && (
-        <div className="absolute mt-2 w-64 divide-y divide-gray-200 rounded bg-white shadow-md">
+        <div className="absolute mt-2 w-64 divide-y divide-gray-100 rounded bg-white shadow-md">
           {categories.slice(10).map((cat) => (
             <button
               key={cat}

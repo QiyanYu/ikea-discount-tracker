@@ -1,19 +1,32 @@
 import { Link, NavLink } from "react-router-dom";
 
-import { FiTwitter, FiGithub, FiHeart, FiLogIn, FiSmile } from "react-icons/fi";
+import {
+  FiTwitter,
+  FiGithub,
+  FiHeart,
+  FiLogIn,
+  FiSmile,
+  FiX,
+} from "react-icons/fi";
 
-export default function Sidebar() {
+export default function Sidebar({ isSidebarPopup, toggleSidebar }) {
   const menus = [
     { title: "Deals", icon: FiSmile, path: "/", gap: true },
     { title: "Saved", icon: FiHeart, path: "/saved" },
     { title: "Login", icon: FiLogIn, path: "/login" },
   ];
   return (
-    <header className="flex h-screen flex-col justify-between border-r-2">
-      <div>
+    <header className="fixed z-[999] flex h-screen w-48 flex-col justify-between  border-r bg-white sm:relative">
+      <div className="relative">
+        <button
+          onClick={toggleSidebar}
+          className="absolute -right-9 top-3 z-50 text-2xl text-white sm:hidden"
+        >
+          <FiX />
+        </button>
         <Link
           to="/"
-          className="flex items-center justify-center border-b-2 p-6 text-2xl font-bold tracking-wider"
+          className="m-6 flex items-center  justify-center text-2xl font-bold tracking-wider"
         >
           Ikea Deals
         </Link>

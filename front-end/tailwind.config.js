@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: { body: ["Nunito"] },
+      fontFamily: { nunito: ["Nunito"] },
       colors: {
         "price-yellow": "rgb(255, 219, 0)",
       },

@@ -9,7 +9,11 @@ import {
   FiX,
 } from "react-icons/fi";
 
-export default function Sidebar({ isSidebarPopup, toggleSidebar }) {
+export default function Sidebar({
+  isSidebarPopup,
+  toggleSidebar,
+  setSidebarPopup,
+}) {
   const menus = [
     { title: "Deals", icon: FiSmile, path: "/", gap: true },
     { title: "Saved", icon: FiHeart, path: "/saved" },
@@ -36,6 +40,9 @@ export default function Sidebar({ isSidebarPopup, toggleSidebar }) {
             <li key={index} className={`${menu.gap ? "mt-10" : "mt-3"}`}>
               <NavLink
                 to={menu.path}
+                onClick={() => {
+                  setSidebarPopup(false);
+                }}
                 className={({ isActive }) => {
                   const baseClasses =
                     "flex items-center justify-start gap-4 border-r-4 tracking-wider hover:text-red-500";
@@ -72,7 +79,7 @@ export default function Sidebar({ isSidebarPopup, toggleSidebar }) {
         <Link
           to="https://ko-fi.com/P5P6LXDLN"
           target="_blank"
-          className="pl-6 hover:opacity-70"
+          className="pl-6 hover:opacity-80"
         >
           <img
             className="h-8"

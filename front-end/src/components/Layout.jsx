@@ -32,11 +32,12 @@ export default function Layout() {
         <Sidebar
           isSidebarPopup={isSidebarPopup}
           toggleSidebar={toggleSideBar}
+          setSidebarPopup={setSidebarPopup}
         />
       </div>
       {isSidebarPopup && (
         <div
-          className="z-100 fixed inset-0 bg-black opacity-60 sm:hidden"
+          className="z-200 fixed inset-0 bg-black opacity-60 sm:hidden"
           onClick={toggleSideBar}
         ></div>
       )}

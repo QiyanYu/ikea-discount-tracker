@@ -23,7 +23,7 @@ export default function Navbar({ toggleSideBar }) {
   const activeNavLink = getActiveNavLink(currentPath);
 
   return (
-    <div className="sticky top-0 z-[200] flex h-20 justify-between border-b bg-gray-100 bg-opacity-50 backdrop-blur-sm backdrop-filter ">
+    <div className="x sticky top-0 z-[200] flex h-20 justify-between border-b bg-gray-100">
       <button
         onClick={toggleSideBar}
         className=" my-4 flex h-8 w-20 items-center justify-center border-r text-xl sm:hidden"

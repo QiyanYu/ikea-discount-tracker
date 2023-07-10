@@ -7,29 +7,25 @@ export default function Deals() {
   const categories = ["All", ...new Set(deals.map((d) => d.category))];
 
   const [searchParams, setSearchParams] = useSearchParams();
-  // const page = searchParams.get("page") || 1;
+  const page = searchParams.get("page") || 1;
   const category = searchParams.get("category") || "All";
-
-  console.log(category);
-  // console.log(page);
 
   // const [showDropdown, setShowDropdown] = useState(false);
 
-  const displayedDeals =
+  const filteredDeals =
     category === "All"
       ? deals
       : deals.filter((van) => van.category === category);
 
-  console.log(displayedDeals);
+  const displayedDeals = filteredDeals.slice(0, page * 25);
 
-  // function loadMore() {
-  //   setSearchParams({ page: page + 1, category });
-  //   setProducts((prevProducts) => {
-  //     const start = (page - 1) * 25;
-  //     const newProducts = prevProducts.concat(deals.slice(start, start + 25));
-  //     return newProducts;
-  //   });
-  // }
+  function loadMore() {
+    setSearchParams((prevParams) => {
+      prevParams.set("page", parseInt(page) + 1);
+      prevParams.set("category", category);
+      return prevParams;
+    });
+  }
 
   function handleFilterChange(key, value) {
     setSearchParams((prevParams) => {
@@ -38,6 +34,7 @@ export default function Deals() {
       } else {
         prevParams.set(key, value);
       }
+      prevParams.set("page", 1);
       return prevParams;
     });
   }
@@ -90,9 +87,14 @@ export default function Deals() {
           <DealCard key={deal.id} deal={deal} />
         ))}
       </div>
-      {/* <button className="flex justify-center" onClick={loadMore}>
-        Load More
-      </button> */}
+      {page < Math.ceil(filteredDeals.length / 25) && (
+        <button
+          className="rounded-md bg-red-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:opacity-80 "
+          onClick={loadMore}
+        >
+          Load More
+        </button>
+      )}
     </>
   );
 }

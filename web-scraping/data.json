@@ -1,0 +1,70 @@
+{
+  "deals": [
+    {
+      "id": "S09443507",
+      "category": "Furniture",
+      "name": "ESSEBODA ",
+      "details": "3-seat sofa, Tallmyra medium gray/brown",
+      "originalPrice": "1,349.00",
+      "currentPrice": "899.00",
+      "discountPercent": 33,
+      "image": "https://www.ikea.com/us/en/images/products/esseboda-3-seat-sofa-tallmyra-medium-gray-brown__1117690_pe872757_s5.jpg?f=s",
+      "link": "https://www.ikea.com/us/en/p/esseboda-3-seat-sofa-tallmyra-medium-gray-brown-s09443507/"
+    },
+    {
+      "id": "30547193",
+      "category": "Home décor",
+      "name": "CACTACEAE ",
+      "details": "Potted plant, cactus/assorted species plants, 6 \"",
+      "originalPrice": "19.99",
+      "currentPrice": "12.99",
+      "discountPercent": 35,
+      "image": "https://www.ikea.com/us/en/images/products/cactaceae-potted-plant-cactus-assorted-species-plants__0654021_pe708246_s5.jpg?f=s",
+      "link": "https://www.ikea.com/us/en/p/cactaceae-potted-plant-cactus-assorted-species-plants-30547193/"
+    },
+    {
+      "id": "40445405",
+      "category": "Outdoor",
+      "name": "VÅRHOLMEN ",
+      "details": "Umbrella canopy, beige, 118 1/8 \"",
+      "originalPrice": "60.00",
+      "currentPrice": "48.00",
+      "discountPercent": 20,
+      "image": "https://www.ikea.com/us/en/images/products/varholmen-umbrella-canopy-beige__0742690_pe742758_s5.jpg?f=s",
+      "link": "https://www.ikea.com/us/en/p/varholmen-umbrella-canopy-beige-40445405/"
+    },
+    {
+      "id": "S79443537",
+      "category": "Furniture",
+      "name": "ESSEBODA ",
+      "details": "3-seat sofa, Knäbäck/light beige birch",
+      "originalPrice": "1,299.00",
+      "currentPrice": "849.00",
+      "discountPercent": 35,
+      "image": "https://www.ikea.com/us/en/images/products/esseboda-3-seat-sofa-knaebaeck-light-beige-birch__1117686_pe872753_s5.jpg?f=s",
+      "link": "https://www.ikea.com/us/en/p/esseboda-3-seat-sofa-knaebaeck-light-beige-birch-s79443537/"
+    },
+    {
+      "id": "S89443527",
+      "category": "Furniture",
+      "name": "ESSEBODA ",
+      "details": "3-seat sofa, Knäbäck light beige/brown",
+      "originalPrice": "1,299.00",
+      "currentPrice": "849.00",
+      "discountPercent": 35,
+      "image": "https://www.ikea.com/us/en/images/products/esseboda-3-seat-sofa-knaebaeck-light-beige-brown__1117687_pe872754_s5.jpg?f=s",
+      "link": "https://www.ikea.com/us/en/p/esseboda-3-seat-sofa-knaebaeck-light-beige-brown-s89443527/"
+    },
+    {
+      "id": "S99443517",
+      "category": "Furniture",
+      "name": "ESSEBODA ",
+      "details": "3-seat sofa, Tallmyra/medium gray birch",
+      "originalPrice": "1,349.00",
+      "currentPrice": "899.00",
+      "discountPercent": 33,
+      "image": "https://www.ikea.com/us/en/images/products/esseboda-3-seat-sofa-tallmyra-medium-gray-birch__1117689_pe872756_s5.jpg?f=s",
+      "link": "https://www.ikea.com/us/en/p/esseboda-3-seat-sofa-tallmyra-medium-gray-birch-s99443517/"
+    }
+  ]
+}

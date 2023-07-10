@@ -93,10 +93,13 @@ const scraperObject = {
         dataObj["currentPrice"] = currentPrice;
 
         // discount %
-        const originalNumber = Number(originalPrice);
-        const currentNumber = Number(currentPrice);
+        const originalNumber = Number(originalPrice.replace(/,/g, ""));
+        console.log(originalNumber);
+        const currentNumber = Number(currentPrice.replace(/,/g, ""));
+        console.log(currentNumber);
         const discountPercent =
           ((originalNumber - currentNumber) / originalNumber) * 100;
+        console.log(discountPercent);
         const rounded = Math.round(discountPercent);
         dataObj["discountPercent"] = rounded;
 

@@ -1327,7 +1327,7 @@
       "details": "Bedroom furniture, set of 4, white, Full",
       "originalPrice": "1,258.97",
       "currentPrice": "1,128.97",
-      "discountPercent": null,
+      "discountPercent": 10,
       "image": "https://www.ikea.com/us/en/images/products/idanaes-bedroom-furniture-set-of-4-white__1101652_pe866481_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/idanaes-bedroom-furniture-set-of-4-white-s79488045/"
     },
@@ -1371,7 +1371,7 @@
       "details": "Bedroom furniture, set of 4, white, King",
       "originalPrice": "1,388.97",
       "currentPrice": "1,258.97",
-      "discountPercent": null,
+      "discountPercent": 10,
       "image": "https://www.ikea.com/us/en/images/products/idanaes-bedroom-furniture-set-of-4-white__1101630_pe866471_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/idanaes-bedroom-furniture-set-of-4-white-s79488050/"
     },
@@ -1514,7 +1514,7 @@
       "details": "Desk and storage combination, and swivel chair/white stain golden brown",
       "originalPrice": "1,077.99",
       "currentPrice": "917.99",
-      "discountPercent": null,
+      "discountPercent": 15,
       "image": "https://www.ikea.com/us/en/images/products/hemnes-alefjaell-desk-and-storage-combination-and-swivel-chair-white-stain-golden-brown__1026819_pe834539_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/hemnes-alefjaell-desk-and-storage-combination-and-swivel-chair-white-stain-golden-brown-s69436373/"
     },
@@ -1932,7 +1932,7 @@
       "details": "Table and 6 chairs, white/Mjuk golden brown, 70 7/8/94 1/2 \"",
       "originalPrice": "1,539.00",
       "currentPrice": "1,179.99",
-      "discountPercent": null,
+      "discountPercent": 23,
       "image": "https://www.ikea.com/us/en/images/products/ekedalen-bernhard-table-and-6-chairs-white-mjuk-golden-brown__0737432_pe741048_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/ekedalen-bernhard-table-and-6-chairs-white-mjuk-golden-brown-s79280696/"
     },
@@ -1943,7 +1943,7 @@
       "details": "Table and 6 chairs, brown/Kavat dark brown, 86 5/8x39 3/8 \"",
       "originalPrice": "2,109.00",
       "currentPrice": "1,749.00",
-      "discountPercent": null,
+      "discountPercent": 17,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-bernhard-table-and-6-chairs-brown-kavat-dark-brown__0737502_pe741141_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-bernhard-table-and-6-chairs-brown-kavat-dark-brown-s49333248/"
     },
@@ -1965,7 +1965,7 @@
       "details": "Table and 6 chairs, brown/Kavat white, 86 5/8x39 3/8 \"",
       "originalPrice": "2,109.00",
       "currentPrice": "1,749.00",
-      "discountPercent": null,
+      "discountPercent": 17,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-bernhard-table-and-6-chairs-brown-kavat-white__0737503_pe741142_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-bernhard-table-and-6-chairs-brown-kavat-white-s19131628/"
     },
@@ -1976,7 +1976,7 @@
       "details": "Table and 4 chairs, oak veneer/Mjuk golden brown, 55 1/8x33 1/2 \"",
       "originalPrice": "1,539.00",
       "currentPrice": "1,299.00",
-      "discountPercent": null,
+      "discountPercent": 16,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-bernhard-table-and-4-chairs-oak-veneer-mjuk-golden-brown__0738068_pe741338_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-bernhard-table-and-4-chairs-oak-veneer-mjuk-golden-brown-s39280764/"
     },
@@ -2042,7 +2042,7 @@
       "details": "Table and 4 chairs, white/Mjuk golden brown, 47 1/4/70 7/8 \"",
       "originalPrice": "1,039.00",
       "currentPrice": "799.99",
-      "discountPercent": null,
+      "discountPercent": 23,
       "image": "https://www.ikea.com/us/en/images/products/ekedalen-bernhard-table-and-4-chairs-white-mjuk-golden-brown__0737669_pe741205_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/ekedalen-bernhard-table-and-4-chairs-white-mjuk-golden-brown-s29280769/"
     },
@@ -2075,7 +2075,7 @@
       "details": "Table and 4 chairs, brown/Mjuk dark brown, 55 1/8x33 1/2 \"",
       "originalPrice": "1,539.00",
       "currentPrice": "1,299.00",
-      "discountPercent": null,
+      "discountPercent": 16,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-bernhard-table-and-4-chairs-brown-mjuk-dark-brown__0738077_pe741354_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-bernhard-table-and-4-chairs-brown-mjuk-dark-brown-s39246044/"
     },
@@ -2108,7 +2108,7 @@
       "details": "Table and 4 chairs, brown/Mjuk white, 55 1/8x33 1/2 \"",
       "originalPrice": "1,539.00",
       "currentPrice": "1,299.00",
-      "discountPercent": null,
+      "discountPercent": 16,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-bernhard-table-and-4-chairs-brown-mjuk-white__0738076_pe741353_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-bernhard-table-and-4-chairs-brown-mjuk-white-s89247183/"
     },
@@ -2163,7 +2163,7 @@
       "details": "Table and 6 chairs, brown/Mjuk white, 70 7/8/94 1/2 \"",
       "originalPrice": "1,539.00",
       "currentPrice": "1,179.00",
-      "discountPercent": null,
+      "discountPercent": 23,
       "image": "https://www.ikea.com/us/en/images/products/ekedalen-bernhard-table-and-6-chairs-brown-mjuk-white__0737431_pe741047_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/ekedalen-bernhard-table-and-6-chairs-brown-mjuk-white-s49221444/"
     },
@@ -2174,7 +2174,7 @@
       "details": "Table and 4 chairs, high gloss white/Kavat white, 53 1/8 \"",
       "originalPrice": "1,059.99",
       "currentPrice": "819.99",
-      "discountPercent": null,
+      "discountPercent": 23,
       "image": "https://www.ikea.com/us/en/images/products/torsby-bernhard-table-and-4-chairs-high-gloss-white-kavat-white__0738103_pe741373_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/torsby-bernhard-table-and-4-chairs-high-gloss-white-kavat-white-s39184357/"
     },
@@ -2306,7 +2306,7 @@
       "details": "Storage combination with doors, white, 108 5/8x84 1/4 \"",
       "originalPrice": "1,499.97",
       "currentPrice": "1,185.00",
-      "discountPercent": null,
+      "discountPercent": 21,
       "image": "https://www.ikea.com/us/en/images/products/liatorp-storage-combination-with-doors-white__0643928_pe702269_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/liatorp-storage-combination-with-doors-white-s19046442/"
     },
@@ -2394,7 +2394,7 @@
       "details": "TV storage combination, white, 130 3/4x84 1/4 \"",
       "originalPrice": "1,481.97",
       "currentPrice": "1,191.99",
-      "discountPercent": null,
+      "discountPercent": 20,
       "image": "https://www.ikea.com/us/en/images/products/liatorp-tv-storage-combination-white__1007252_pe826002_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/liatorp-tv-storage-combination-white-s39046064/"
     },
@@ -2427,7 +2427,7 @@
       "details": "Storage combination, white, 108 5/8x84 1/4 \"",
       "originalPrice": "1,159.97",
       "currentPrice": "913.00",
-      "discountPercent": null,
+      "discountPercent": 21,
       "image": "https://www.ikea.com/us/en/images/products/liatorp-storage-combination-white__0643934_pe702271_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/liatorp-storage-combination-white-s99046443/"
     },
@@ -2460,7 +2460,7 @@
       "details": "TV storage combination, white, 130 3/8x84 1/4 \"",
       "originalPrice": "1,329.97",
       "currentPrice": "1,039.99",
-      "discountPercent": null,
+      "discountPercent": 22,
       "image": "https://www.ikea.com/us/en/images/products/liatorp-tv-storage-combination-white__0624476_pe692092_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/liatorp-tv-storage-combination-white-s29046045/"
     },
@@ -2988,7 +2988,7 @@
       "details": "Table+6 armchairs, outdoor, gray stained/Frösön/Duvholmen dark gray",
       "originalPrice": "1,059.00",
       "currentPrice": "887.00",
-      "discountPercent": null,
+      "discountPercent": 16,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-6-armchairs-outdoor-gray-stained-froesoen-duvholmen-dark-gray__0806172_pe769839_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-6-armchairs-outdoor-gray-stained-froesoen-duvholmen-dark-gray-s69328608/"
     },
@@ -2999,7 +2999,7 @@
       "details": "Table+6 armchairs, outdoor, gray stained/Frösön/Duvholmen beige",
       "originalPrice": "1,059.00",
       "currentPrice": "887.00",
-      "discountPercent": null,
+      "discountPercent": 16,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-6-armchairs-outdoor-gray-stained-froesoen-duvholmen-beige__0806170_pe769834_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-6-armchairs-outdoor-gray-stained-froesoen-duvholmen-beige-s59328642/"
     },
@@ -3010,7 +3010,7 @@
       "details": "Table+6 armchairs, outdoor, gray stained/Järpön/Duvholmen white",
       "originalPrice": "1,119.00",
       "currentPrice": "947.00",
-      "discountPercent": null,
+      "discountPercent": 15,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-6-armchairs-outdoor-gray-stained-jaerpoen-duvholmen-white__0806176_pe769837_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-6-armchairs-outdoor-gray-stained-jaerpoen-duvholmen-white-s19328564/"
     },
@@ -3032,7 +3032,7 @@
       "details": "Table+6 armchairs, outdoor, gray stained/Järpön/Duvholmen anthracite",
       "originalPrice": "1,119.00",
       "currentPrice": "947.00",
-      "discountPercent": null,
+      "discountPercent": 15,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-6-armchairs-outdoor-gray-stained-jaerpoen-duvholmen-anthracite__0806174_pe769841_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-6-armchairs-outdoor-gray-stained-jaerpoen-duvholmen-anthracite-s89328532/"
     },
@@ -3230,7 +3230,7 @@
       "details": "Table, 3 armchairs + bench, outdoor, gray stained/Frösön/Duvholmen dark gray",
       "originalPrice": "1,008.00",
       "currentPrice": "836.00",
-      "discountPercent": null,
+      "discountPercent": 17,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-3-armchairs-bench-outdoor-gray-stained-froesoen-duvholmen-dark-gray__0806215_pe769853_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-3-armchairs-bench-outdoor-gray-stained-froesoen-duvholmen-dark-gray-s19328762/"
     },
@@ -3241,7 +3241,7 @@
       "details": "Table, 3 armchairs + bench, outdoor, gray stained/Järpön/Duvholmen anthracite",
       "originalPrice": "1,068.00",
       "currentPrice": "896.00",
-      "discountPercent": null,
+      "discountPercent": 16,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-3-armchairs-bench-outdoor-gray-stained-jaerpoen-duvholmen-anthracite__0806218_pe769856_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-3-armchairs-bench-outdoor-gray-stained-jaerpoen-duvholmen-anthracite-s19328781/"
     },
@@ -3252,7 +3252,7 @@
       "details": "Table, 3 armchairs + bench, outdoor, gray stained/Järpön/Duvholmen white",
       "originalPrice": "1,068.00",
       "currentPrice": "896.00",
-      "discountPercent": null,
+      "discountPercent": 16,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-3-armchairs-bench-outdoor-gray-stained-jaerpoen-duvholmen-white__0806220_pe769862_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-3-armchairs-bench-outdoor-gray-stained-jaerpoen-duvholmen-white-s29328790/"
     },
@@ -3263,7 +3263,7 @@
       "details": "Table, 3 armchairs + bench, outdoor, gray stained/Frösön/Duvholmen beige",
       "originalPrice": "1,008.00",
       "currentPrice": "836.00",
-      "discountPercent": null,
+      "discountPercent": 17,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-3-armchairs-bench-outdoor-gray-stained-froesoen-duvholmen-beige__0806216_pe769854_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-3-armchairs-bench-outdoor-gray-stained-froesoen-duvholmen-beige-s49328666/"
     },
@@ -3296,7 +3296,7 @@
       "details": "Table + 6 reclining chairs, outdoor, gray stained/Järpön/Duvholmen white",
       "originalPrice": "1,121.00",
       "currentPrice": "1,097.00",
-      "discountPercent": null,
+      "discountPercent": 2,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-6-reclining-chairs-outdoor-gray-stained-jaerpoen-duvholmen-white__0961404_pe807546_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-6-reclining-chairs-outdoor-gray-stained-jaerpoen-duvholmen-white-s29413076/"
     },
@@ -3318,7 +3318,7 @@
       "details": "Table + 6 reclining chairs, outdoor, gray stained/Frösön/Duvholmen dark gray",
       "originalPrice": "1,061.00",
       "currentPrice": "1,037.00",
-      "discountPercent": null,
+      "discountPercent": 2,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-6-reclining-chairs-outdoor-gray-stained-froesoen-duvholmen-dark-gray__0961398_pe807542_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-6-reclining-chairs-outdoor-gray-stained-froesoen-duvholmen-dark-gray-s59412914/"
     },
@@ -3329,7 +3329,7 @@
       "details": "Table + 6 reclining chairs, outdoor, gray stained/Järpön/Duvholmen anthracite",
       "originalPrice": "1,121.00",
       "currentPrice": "1,097.00",
-      "discountPercent": null,
+      "discountPercent": 2,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-6-reclining-chairs-outdoor-gray-stained-jaerpoen-duvholmen-anthracite__0961401_pe807544_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-6-reclining-chairs-outdoor-gray-stained-jaerpoen-duvholmen-anthracite-s59413070/"
     },
@@ -3340,7 +3340,7 @@
       "details": "Table + 6 reclining chairs, outdoor, gray stained/Frösön/Duvholmen beige",
       "originalPrice": "1,061.00",
       "currentPrice": "1,037.00",
-      "discountPercent": null,
+      "discountPercent": 2,
       "image": "https://www.ikea.com/us/en/images/products/bondholmen-table-6-reclining-chairs-outdoor-gray-stained-froesoen-duvholmen-beige__0961399_pe807566_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/bondholmen-table-6-reclining-chairs-outdoor-gray-stained-froesoen-duvholmen-beige-s79412908/"
     },
@@ -3439,7 +3439,7 @@
       "details": "Table and 6 chairs, brown/Gunnared medium gray, 86 5/8x39 3/8 \"",
       "originalPrice": "1,689.00",
       "currentPrice": "1,539.00",
-      "discountPercent": null,
+      "discountPercent": 9,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-volfgang-table-and-6-chairs-brown-gunnared-medium-gray__0737506_pe741145_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-volfgang-table-and-6-chairs-brown-gunnared-medium-gray-s09259839/"
     },
@@ -3450,7 +3450,7 @@
       "details": "Table and 4 chairs, brown/Bomstad black, 55 1/8x33 1/2 \"",
       "originalPrice": "1,259.00",
       "currentPrice": "1,159.00",
-      "discountPercent": null,
+      "discountPercent": 8,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-volfgang-table-and-4-chairs-brown-bomstad-black__0738085_pe741362_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-volfgang-table-and-4-chairs-brown-bomstad-black-s79251830/"
     },
@@ -3461,7 +3461,7 @@
       "details": "Table and 4 chairs, brown/Gunnared medium gray, 55 1/8x33 1/2 \"",
       "originalPrice": "1,259.00",
       "currentPrice": "1,159.00",
-      "discountPercent": null,
+      "discountPercent": 8,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-volfgang-table-and-4-chairs-brown-gunnared-medium-gray__0738084_pe741361_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-volfgang-table-and-4-chairs-brown-gunnared-medium-gray-s09259844/"
     },
@@ -3472,7 +3472,7 @@
       "details": "Table and 6 chairs, brown/Bomstad black, 86 5/8x39 3/8 \"",
       "originalPrice": "1,689.00",
       "currentPrice": "1,539.00",
-      "discountPercent": null,
+      "discountPercent": 9,
       "image": "https://www.ikea.com/us/en/images/products/moerbylanga-volfgang-table-and-6-chairs-brown-bomstad-black__0737628_pe741194_s5.jpg?f=s",
       "link": "https://www.ikea.com/us/en/p/moerbylanga-volfgang-table-and-6-chairs-brown-bomstad-black-s69251840/"
     },

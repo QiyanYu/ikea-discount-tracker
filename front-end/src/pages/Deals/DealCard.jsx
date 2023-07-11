@@ -15,7 +15,7 @@ export default function DealDetail({ deal }) {
     <Link
       to={link}
       target="_blank"
-      className="h-80 w-64 overflow-hidden rounded-2xl bg-white shadow-lg hover:opacity-80"
+      className="h-80 w-64 overflow-hidden rounded-lg bg-white shadow-lg hover:opacity-80"
     >
       <img
         className="h-3/5 w-full overflow-hidden rounded-2xl object-contain p-1"
